@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href=""> <img src="./Assets/images/Logo.png" alt="Logo" width="38.667px" height="40 px" flex-shrink="0">
+        </a>
+
+        <div class="header-texts">
+            <h2>For Individuals</h2>
+            <p class="Text-1">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+            <p class="Text-2">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </div>
+    </div>
+
+
+
+
+    <form class="form">
+        <div>
+            <label for="firstname" >First Name</label>
+            <input type="text" id="firstname" placeholder="Tolu" required>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" required>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="" hidden>Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" required>
+        </div>
+        <div>
+            <label for="Weight">Weight (KG)</label>
+            <input type="text" id="Weight" >
+        </div>
+        <div>
+            <label for="Height">Height(CM)</label>
+            <input type="text" id="Height">
+        </div>
+        <div>
+            <label for="Activity">Activity Level</label>
+            <select name="Activity" id="Activity">
+                <option value="" hidden>Select here</option>
+                <option value="Workout">Workout</option>
+                <option value="Diet">Diet</option>
+            </select>
+        </div>
+       
+        <div>
+            <label for="password">Password</label>
+            <div class="password-input">
+                <input type="password" id="password" required>
+                <div class="eye-icon">
+                    <img src="./Assets/images/show.png" alt="Eye">
+
+                </div>
+            </div>
+        </div>
+
+        <button type="submit">Register</button>
+        <div class="footer-texts">
+        
+            <p>By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
+            
+        </div>
+    </form>
+    
+</body>
+
+</html>
